@@ -1,0 +1,118 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext");
+
+.navbar-states {
+  background:  #111166;
+  /* #2121d8 */
+}
+body {
+  font-family: "Oswald", arial narrow, sans-serif;
+}
+.mybrand {
+  color: rgb(217, 222, 243);
+  font-weight: 400;
+}
+.mybrand:hover {
+  color: rgb(217, 222, 243);
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(217, 222, 243);
+  font-weight: 400;
+  padding: 15px;
+}
+.navbar {
+  padding: 0;
+}
+.navbar-toggler-icon{
+  width: 1em;
+  height: 1em;
+}
+
+.mylink:hover {
+  background-color: #000044;
+}
+.mybtn {
+  background-color: #198731;
+  color: white;
+}
+
+.m-l-auto {
+  margin-left: auto;
+}
+.topbanner {
+  background-color: #000044;
+  height: 215px;
+  width: 100%;
+  /* position: fixed; */
+  color: white;
+  display: flex;
+  align-items: center;
+  z-index: -1;
+  padding-bottom: 2.5em;
+}
+.Wrap {
+  margin: -2.5em auto 0;
+  background-color: white;
+  /* height: 600px; */
+  width: 100%;
+  padding: 5em 1em;
+  border-radius: 6px;
+}
+body {
+  background-color: #efefef;
+}
+
+h3 {
+  text-align: center;
+}
+.card {
+  padding: 2em;
+  border: solid black 1px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.formbtn {
+  width: 100%;
+  padding: 0.75em;
+}
+
+.heading {
+  /* color: white; */
+  font-size: 48px;
+}
+.linedLabel {
+  position: relative;
+  text-align: center;
+}
+.linedLabel:before {
+  content: "";
+  width: 100%;
+  left: 0;
+  height: 2px;
+  position: absolute;
+  top: calc(50% - 1px);
+  background: #ccc;
+}
+.linedLabel > span {
+  background: #fff;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  padding: 0 5px;
+  text-transform: uppercase;
+}
+#field{
+  color: red;
+  visibility: hidden;
+}
+.btn-default {
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-left: 0 none transparent;
+}
+#reqWarning{
+  color: red;
+}
+.eror{
+  color: red;
+}
