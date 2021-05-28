@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "title": "Tom and jerry",
+      "author": "Joseph Barbera",
+      "genre": "Cartoon",
+      "img": "tom and jerry.jpg"
+    },
+    {
+      "title": " Harry Potter",
+      "author": "J K Rowling",
+      "genre": "Fantasy",
+      "img": "harry.jpg"
+    },
+    {
+      "title": "Pathumayude addu",
+      "author": "Basheer",
+      "genre": "Drama",
+      "img": "basheer.jpg"
+    }
+  ]
+}

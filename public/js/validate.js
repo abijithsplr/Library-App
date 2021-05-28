@@ -151,7 +151,7 @@ function addauthorcheck() {
       img: authorImage.value,
       content:about.value
     };
-    setAction.setAttribute("action", "/authors");
+    setAction.setAttribute("action", "/addauthor/admin");
     (document.getElementById("field")).style.visibility = "hidden";
     (document.getElementById("field")).innerHTML = "";
     console.log(author);
@@ -173,7 +173,7 @@ function addauthorcheck() {
 }
 function addbookcheck() {
   if (titleReg.test(booktitle.value.trim()) && authornameReg.test(authorname.value.trim()) && genreReg.test(genre.value.trim()) && cover.value.trim() != "") {
-    setAction.setAttribute("action", "/books");
+    setAction.setAttribute("action", "/addbook/admin");
     (document.getElementById("field")).style.visibility = "hidden";
     (document.getElementById("field")).innerHTML = "";
     return true;
